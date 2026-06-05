@@ -2,7 +2,7 @@ let currentQuestion = 0;
 let userAnswers = {};
 let quizSubmitted = false;
 
-const TIME_LIMIT_MINUTES = 180;
+const TIME_LIMIT_MINUTES = 60;
 let timeRemaining = TIME_LIMIT_MINUTES * 60;
 let timerInterval = null;
 
